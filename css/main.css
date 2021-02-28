@@ -104,17 +104,41 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 0em 2em;
   font-size: 1.25em;
-  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
   
 }
 
-.wrapper {
+.flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
+}
+
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header h1 {
+  
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+main p {
+  
 }
 
 .div-1, .div-2, .div-3 {
